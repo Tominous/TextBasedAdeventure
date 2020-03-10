@@ -42,7 +42,7 @@ def armor_shop(city):
                     TextBasedAdventureFunctions.blank_line(1)
                     print ("You bought the Tattered Leather Chestplate!")
                     TextBasedAdventureFunctions.blank_line(1)
-                    #tatteredleatherchestplate = ragni_armor_shop.get(items)
+                    tatteredleatherchestplate = ragni_armor_shop.get(items)
                     #Not sure how to call a list from a list
                     inventory.append(ragniarmorshop.items)
                     itemname = inventory.tattered_leather_chestplate.get["name"]
